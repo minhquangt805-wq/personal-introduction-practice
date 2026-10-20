@@ -1,0 +1,5 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 64px 24px; font-family: Arial, sans-serif; color: #172033; background: #f0f5fb; line-height: 1.7; }
+.profile { max-width: 760px; margin: auto; }
+h1 { font-size: clamp(2rem, 6vw, 3.5rem); line-height: 1.15; }
+.eyebrow { color: #2563eb; font-weight: 700; letter-spacing: .12em; }
