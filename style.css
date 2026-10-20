@@ -3,3 +3,7 @@ body { margin: 0; padding: 64px 24px; font-family: Arial, sans-serif; color: #17
 .profile { max-width: 760px; margin: auto; }
 h1 { font-size: clamp(2rem, 6vw, 3.5rem); line-height: 1.15; }
 .eyebrow { color: #2563eb; font-weight: 700; letter-spacing: .12em; }
+.introduction { margin-top: 36px; padding: 32px; border: 1px solid #dbe5f1; border-radius: 20px; background: #fff; box-shadow: 0 12px 32px #1720330d; }
+.introduction h2 { margin-top: 0; color: #1d4ed8; }
+.introduction p:last-child { margin-bottom: 0; }
+@media (max-width: 480px) { body { padding: 32px 16px; } .introduction { padding: 24px; } }
